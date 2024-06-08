@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'slip';
+    src: url('../Sickness.ttf') format('opentype');
+    font-weight: 900;
+}
+
+:root {
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue';
+    --fonte-slip: 'slip';
+ }
+
+ h2 {
+    font-family: var(--fonte-slip);
+ }
+
+ button {
+    font-family: var(--fonte-slip);
+    font-weight: lighter;
+    color: red;
+    background-color: black;
+ }
+
+ 
